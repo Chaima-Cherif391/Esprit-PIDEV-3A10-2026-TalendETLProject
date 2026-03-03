@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:FileExcelConnection xmi:id="_mm5UkAUVEfGPrLvWm5Z_5Q" name="venues" id="_mm4GcAUVEfGPrLvWm5Z_5Q" dataPackage="_mm5UkQUVEfGPrLvWm5Z_5Q" Server="Localhost 127.0.0.1" FilePath="C:/Users/user/Downloads/scraped_venues (1).xls" Encoding="UTF-8" UseHeader="true" HeaderValue="1" FirstLineCaption="true" SheetName="scraped_venues (1)" firstColumn="1" thousandSeparator="','" decimalSeparator="'.'" selectAllSheets="true" sheetList="Worksheet:w&#xA;">
+    <sheetColumns>A</sheetColumns>
+    <sheetColumns>B</sheetColumns>
+    <sheetColumns>C</sheetColumns>
+    <sheetColumns>D</sheetColumns>
+    <sheetColumns>E</sheetColumns>
+    <sheetColumns>F</sheetColumns>
+  </TalendMetadata:FileExcelConnection>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_mm5UkQUVEfGPrLvWm5Z_5Q" name="default" dataManager="_mm5UkAUVEfGPrLvWm5Z_5Q">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_mm5UkgUVEfGPrLvWm5Z_5Q" id="_gq2z8AUVEfGPrLvWm5Z_5Q" label="venues">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_mm5UkwUVEfGPrLvWm5Z_5Q" label="source" length="28" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_mm5UlAUVEfGPrLvWm5Z_5Q" label="source_url" length="97" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_mm5UlQUVEfGPrLvWm5Z_5Q" label="venue_name" length="41" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_mm5UlgUVEfGPrLvWm5Z_5Q" label="city" length="5" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_mm5UlwUVEfGPrLvWm5Z_5Q" label="venue_type" length="10" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_mm5UmAUVEfGPrLvWm5Z_5Q" label="capacity_min" length="3" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_mm5UmQUVEfGPrLvWm5Z_5Q" label="capacity_max" length="3" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_mm5UmgUVEfGPrLvWm5Z_5Q" label="raw_capacity" length="7" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_mm5UmwUVEfGPrLvWm5Z_5Q" label="venue_fee_value" length="7" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_mm5UnAUVEfGPrLvWm5Z_5Q" label="venue_fee_currency" length="3" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_mm5UnQUVEfGPrLvWm5Z_5Q" label="raw_fee" length="11" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_mm5UngUVEfGPrLvWm5Z_5Q" label="fx_usd_to_tnd_rate_used" length="4" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>

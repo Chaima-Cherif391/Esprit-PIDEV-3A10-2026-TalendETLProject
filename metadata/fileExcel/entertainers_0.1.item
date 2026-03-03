@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:FileExcelConnection xmi:id="_N8gtMAUPEfGPrLvWm5Z_5Q" name="entertainers" dataPackage="_N8gtMQUPEfGPrLvWm5Z_5Q" Server="Localhost 127.0.0.1" FilePath="C:/Users/user/OneDrive - ESPRIT/Bureau/4BI/PA_BI/other Scrapping/entertainers_tn_FINAL.xlsx" Encoding="UTF-8" UseHeader="true" HeaderValue="1" FirstLineCaption="true" SheetName="entertainers_tn_FINAL.csv" firstColumn="1" thousandSeparator="','" decimalSeparator="'.'" selectAllSheets="true" sheetList="entertainers_tn_FINAL.csv:w&#xA;">
+    <sheetColumns>A</sheetColumns>
+    <sheetColumns>B</sheetColumns>
+    <sheetColumns>C</sheetColumns>
+    <sheetColumns>D</sheetColumns>
+    <sheetColumns>E</sheetColumns>
+    <sheetColumns>F</sheetColumns>
+    <sheetColumns>G</sheetColumns>
+    <sheetColumns>H</sheetColumns>
+    <sheetColumns>I</sheetColumns>
+    <sheetColumns>J</sheetColumns>
+  </TalendMetadata:FileExcelConnection>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_N8gtMQUPEfGPrLvWm5Z_5Q" name="default" dataManager="_N8gtMAUPEfGPrLvWm5Z_5Q">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_N8gtMgUPEfGPrLvWm5Z_5Q" id="_JuwTUAUPEfGPrLvWm5Z_5Q" label="entertainers">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_N8gtMwUPEfGPrLvWm5Z_5Q" label="id_entertainer" length="2" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_N8gtNAUPEfGPrLvWm5Z_5Q" label="name" length="25" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_N8gtNQUPEfGPrLvWm5Z_5Q" label="categorie" length="15" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_N8gtNgUPEfGPrLvWm5Z_5Q" label="nationality" length="8" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_N8gtNwUPEfGPrLvWm5Z_5Q" label="followers" length="8" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_N8gtOAUPEfGPrLvWm5Z_5Q" label="followers_instagram" length="8" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_N8gtOQUPEfGPrLvWm5Z_5Q" label="followers_tiktok" length="7" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_N8gtOgUPEfGPrLvWm5Z_5Q" label="average_price" length="27" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_N8gtOwUPEfGPrLvWm5Z_5Q" label="source" length="15" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_N8gtPAUPEfGPrLvWm5Z_5Q" label="last_updated" length="28" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>

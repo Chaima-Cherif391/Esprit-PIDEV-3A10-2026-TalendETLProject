@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:FileExcelConnection xmi:id="_r3T-8QUNEfGPrLvWm5Z_5Q" name="meteo" id="_r3T-8AUNEfGPrLvWm5Z_5Q" dataPackage="_r3T-8gUNEfGPrLvWm5Z_5Q" Server="Localhost 127.0.0.1" FilePath="C:/Users/user/OneDrive - ESPRIT/Bureau/4BI/PA_BI/other Scrapping/meteo_tunisie_2022_2025_avec_conditions.xlsx" Encoding="UTF-8" UseHeader="true" HeaderValue="1" FirstLineCaption="true" SheetName="Sheet1" firstColumn="1" thousandSeparator="','" decimalSeparator="'.'" selectAllSheets="true" sheetList="Sheet1:w&#xA;">
+    <sheetColumns>A</sheetColumns>
+    <sheetColumns>B</sheetColumns>
+    <sheetColumns>C</sheetColumns>
+    <sheetColumns>D</sheetColumns>
+    <sheetColumns>E</sheetColumns>
+    <sheetColumns>F</sheetColumns>
+    <sheetColumns>G</sheetColumns>
+    <sheetColumns>H</sheetColumns>
+    <sheetColumns>I</sheetColumns>
+    <sheetColumns>J</sheetColumns>
+    <sheetColumns>K</sheetColumns>
+    <sheetColumns>L</sheetColumns>
+    <sheetColumns>M</sheetColumns>
+    <sheetColumns>N</sheetColumns>
+    <sheetColumns>O</sheetColumns>
+  </TalendMetadata:FileExcelConnection>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_r3T-8gUNEfGPrLvWm5Z_5Q" name="default" dataManager="_r3T-8QUNEfGPrLvWm5Z_5Q">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_r3T-8wUNEfGPrLvWm5Z_5Q" id="_mLsf8AUNEfGPrLvWm5Z_5Q" label="meteo">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r3T-9AUNEfGPrLvWm5Z_5Q" label="ville" length="255" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r3T-9QUNEfGPrLvWm5Z_5Q" label="date" length="-1" talendType="id_Date" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r3T-9gUNEfGPrLvWm5Z_5Q" label="annee" length="255" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r3T-9wUNEfGPrLvWm5Z_5Q" label="mois" length="255" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r3T--AUNEfGPrLvWm5Z_5Q" label="jour" length="-1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r3T--QUNEfGPrLvWm5Z_5Q" label="saison" length="-1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r3T--gUNEfGPrLvWm5Z_5Q" label="saison_nom" length="255" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r3T--wUNEfGPrLvWm5Z_5Q" label="condition_meteo" length="255" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r3T-_AUNEfGPrLvWm5Z_5Q" label="weather_code" length="-1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r3T-_QUNEfGPrLvWm5Z_5Q" label="temp_max" length="-1" talendType="id_Float" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r3T-_gUNEfGPrLvWm5Z_5Q" label="temp_min" length="-1" talendType="id_Float" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r3T-_wUNEfGPrLvWm5Z_5Q" label="precipitation" length="-1" talendType="id_Float" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r3T_AAUNEfGPrLvWm5Z_5Q" label="wind_speed_max" length="-1" talendType="id_Float" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r3T_AQUNEfGPrLvWm5Z_5Q" label="humidity_mean" length="-1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_r3T_AgUNEfGPrLvWm5Z_5Q" label="pressure_mean" length="-1" talendType="id_Float" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>

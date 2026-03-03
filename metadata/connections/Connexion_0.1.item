@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TalendMetadata:DatabaseConnection xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmi:id="_s9LQEPiyEfClpbg05sdLRg" name="Connexion" id="_wEsskPiwEfClpbg05sdLRg" label="Connexion" DatabaseType="Microsoft SQL Server" DriverClass="com.microsoft.sqlserver.jdbc.SQLServerDriver" URL="jdbc:sqlserver://localhost:1433;DatabaseName=Event_SA;trustServerCertificate=true" dbVersionString="MSSQL_PROP" Port="1433" Username="talend" Password="enc:system.encryption.key.v1:T9tMZQYx59DVoGXr8xQVFeMR2U6tR/Hhxv0r1tnaAg==" ServerName="localhost" DatasourceName="" FileFieldName="" SID="Event_SA" SqlSynthax="" StringQuote="" NullChar="" DbmsId="id_MSSQL" ProductId="SQL_SERVER" AdditionalParams="trustServerCertificate=true" StandardSQL="true" SQLMode="false" UiSchema="dbo">
+  <taggedValue xmi:id="_s9LQEfiyEfClpbg05sdLRg" tag="Is Conn Need Reload" value="false"/>
+  <taggedValue xmi:id="_s9n8APiyEfClpbg05sdLRg" tag="package filter" value=""/>
+  <taggedValue xmi:id="_s9n8AfiyEfClpbg05sdLRg" tag="Status" value=""/>
+  <taggedValue xmi:id="_s9n8AviyEfClpbg05sdLRg" tag="Version" value="0.1"/>
+  <taggedValue xmi:id="_s9n8A_iyEfClpbg05sdLRg" tag="Purpose" value=""/>
+  <taggedValue xmi:id="_s9n8BPiyEfClpbg05sdLRg" tag="Description" value=""/>
+  <taggedValue xmi:id="_s9n8BfiyEfClpbg05sdLRg" tag="Author" value=""/>
+  <taggedValue xmi:id="_s9n8BviyEfClpbg05sdLRg" tag="otherParameter"/>
+  <parameters xmi:id="_s9LQEviyEfClpbg05sdLRg" key="CONN_PARA_KEY_USERNAME" value="talend"/>
+  <parameters xmi:id="_7_bm8Pi1EfClpbg05sdLRg" key="CONN_PARA_KEY_MAPRDB_TABLE_NS_MAPPING" value=""/>
+</TalendMetadata:DatabaseConnection>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:FileExcelConnection xmi:id="_aeO00fk8EfCjOsQKm7c4jQ" name="Visitors" dataPackage="_aeO00vk8EfCjOsQKm7c4jQ" Server="Localhost 127.0.0.1" FilePath="C:/Users/user/OneDrive - ESPRIT/Bureau/4BI/PA_BI/FICHIERS EXCEL/VISITORS.xlsx" Encoding="UTF-8" UseHeader="true" HeaderValue="1" FirstLineCaption="true" SheetName="Sheet1" firstColumn="1" thousandSeparator="','" decimalSeparator="'.'" selectAllSheets="true" sheetList="Sheet1:w&#xA;">
+    <sheetColumns>A</sheetColumns>
+    <sheetColumns>B</sheetColumns>
+    <sheetColumns>C</sheetColumns>
+    <sheetColumns>D</sheetColumns>
+  </TalendMetadata:FileExcelConnection>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_aeO00vk8EfCjOsQKm7c4jQ" name="default" dataManager="_aeO00fk8EfCjOsQKm7c4jQ">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_aeO00_k8EfCjOsQKm7c4jQ" id="_WA3RoPk8EfCjOsQKm7c4jQ" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_aeO01Pk8EfCjOsQKm7c4jQ" label="id" length="2" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_aeO01fk8EfCjOsQKm7c4jQ" label="date" length="28" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_aeO01vk8EfCjOsQKm7c4jQ" label="visitors" length="5" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_aeO01_k8EfCjOsQKm7c4jQ" label="reservations" length="3" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>
