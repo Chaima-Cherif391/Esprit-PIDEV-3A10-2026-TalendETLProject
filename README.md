@@ -92,6 +92,7 @@ The project follows the **GIMSI methodology** across 4 phases:
 |-----|--------|
 | Chaima Cherif |[@Chaima-Cherif391](https://github.com/Chaima-Cherif391) |
 | Mariem Chouchene|[@mariemchouchene](https://github.com/Mariem0210) |
+| Molka Gharbi |[@GharbiMolka](https://github.com/GharbiMolka) |
 
 ---
 
